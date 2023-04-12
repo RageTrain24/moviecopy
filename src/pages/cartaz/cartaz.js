@@ -35,7 +35,7 @@ export default function Cartaz() {
                         <article>
                             <strong>{filme.title}</strong>
                             <img src={`https://image.tmdb.org/t/p/w300/${filme.poster_path}`} alt={filme.title} />
-                            <Link to='/Detalhes'>Detalhes</Link>
+                            <Link to={`/Detalhes/${filme.id}`}>Detalhes</Link>
                         </article>
                     )
                 })}

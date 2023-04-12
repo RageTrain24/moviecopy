@@ -26,7 +26,7 @@ export default function Rotas(){
         <Route path='/Lancamentos' element={<Lancamentos />}/>
         <Route path='/Nacionais' element={<Nacionais />}/>
         <Route path='/Internacionais' element={<Internacionais />}/>
-        <Route path='/Detalhes' element={<Detalhes />}/>
+        <Route path='/Detalhes/:id' element={<Detalhes />}/>
         </Routes>
         <Footer />
         </BrowserRouter>

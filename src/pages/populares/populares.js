@@ -1,7 +1,5 @@
-
-
-export default function Populares(){
-    return(
-        <h1>Populares</h1>
+export default function Populares (){
+    return (
+        <h1> Populares </h1>
     )
 }

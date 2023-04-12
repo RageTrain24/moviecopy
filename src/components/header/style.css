@@ -3,7 +3,7 @@
     margin: 0;
 }
 .header{
-    background-color: black;
+    background-color: ghostwhite;
     height: 70px;
     width: 100%;
     display: flex;
@@ -21,7 +21,7 @@
     text-align: center;
     margin-top: 40%;
     font-size: 10px;
-    background-color: black;
+    background-color: ghostwhite;
     color: #00BFFF;
     height: 50px;
 }
@@ -38,7 +38,7 @@ form input, button, select{
 
 
 .dropbtn {
-    background-color: black;
+    background-color: ghostwhite;
     color: 	#00BFFF;
     padding: 16px;
     font-size: 20px;
@@ -57,7 +57,7 @@ form input, button, select{
     z-index: 1;
   }
   .dropdown-content a {
-    color: black;
+    color: #00BFFF;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
